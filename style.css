@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+}
+
+.links p {
+    /* background-color: yellow; */
+    padding: 8px;
+    box-shadow: 1px 1px 2px white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    font-weight: 700;
+}
+
+.logo {
+    font-size: 25px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 2.2vw;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+.btn button {
+    padding: 10px 20px;
+    background-color: #A9FB50;
+    border-radius: 25px;
+    border: none;
+    font-weight: 800;
+}
+
+.one {
+    padding: 5px 100px;
+    height: 65%;
+    width: 100%;
+    /* background-color: yellowgreen; */
+    /* display: flex; */
+}
+
+.two {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 20vw;
+}
+
+.one>h1 {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.left {
+    /* background-color: yellowgreen; */
+    width: 90%;
+}
+
+.left h1 {
+    font-size: 50px;
+}
+
+.left>p {
+    margin: 30px 0;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+.btns button {
+    font-weight: 800;
+    padding: 10px 30px;
+    background-color: #A9FB50;
+    border: none;
+    border-radius: 25px;
+}
+
+.btnss {
+    margin-top: 2vw;
+    display: flex;
+    gap: 5vw;
+    align-items: center;
+}
+
+.bts {
+    background-color: hsla(192, 26%, 18%, 0.5);
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.bts h3 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.bts p {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+
+.right {
+    /* overflow: hidden; */
+    /* margin-top: 4%; */
+    /* height: 22%; */
+    margin-right: 15%;
+    width: 100%;
+
+}
+
+.girl {
+    height: 350px;
+    /* width: 700px; */
+    border-radius: 20px;
+    object-fit: contain;
+    object-position: center;
+    background-color: violet;
+}
+
+.rights {
+    margin-top: 5%;
+    /* padding: 20px 0px; */
+    /* height: 22%; */
+    width: 100%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.foot {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    border-radius: 15px;
+    box-shadow: 1px -1px 0px whitesmoke;
+    /* box-shadow: to 1px 0px 0px whitesmoke; */
+}
+
+.foot h2 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.foot p {
+    margin-top: 2px;
+    font-size: 10px;
+}
+
+.foot i {
+    font-size: 50px;
+}
